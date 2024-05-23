@@ -1,0 +1,73 @@
+body {
+    background-color: #8ec9fc;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #0c0c0c;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+/* เพิ่มส่วนสีต่าง ๆ */
+.rainbow-text {
+    animation: rainbow 1.5s infinite alternate; /* การเรียกใช้งาน animation ชื่อ "rainbow" ที่มีความยาว 2 วินาที ซึ่งจะเป็นไปมา */
+    font-size: 36px;
+}
+
+@keyframes rainbow {
+    0% { color: violet; }
+    14% { color: indigo; }
+    28% { color: blue; }
+    42% { color: green; }
+    57% { color: yellow; }
+    71% { color: orange; }
+    85% { color: red; }
+    100% { color: violet; }
+}
+section {
+    padding: 20px;
+}
+article {
+    margin-bottom: 20px;
+}
+.phuket-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+}
+.phuket-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+.phuket-item h2 {
+    margin-top: 0;
+}
+.intro-box {
+    background-color: #da79f2;
+    border: 2px solid #4CAF50; /* เปลี่ยนสีกรอบเป็นสีเขียว */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* เพิ่มขอบโค้ง */
+}
+.contact-info {
+    text-align: left; /* จัดข้อความให้ชิดซ้าย */
+}
